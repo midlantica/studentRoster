@@ -20,14 +20,18 @@ footer {
 
 /* >>>>>>>>>>>>>>> */
 
-header h1 {
+header h1,
+header h2,
+header h3,
+header h4,
+header h5 {
   margin: 0;
   padding: 0;
   color: white;
 }
 
-header h1 i {
-  margin-right: 0.3em;
+header i {
+  margin-right: 0.5rem;
 }
 
 footer h4,

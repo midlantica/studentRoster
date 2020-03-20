@@ -14,7 +14,6 @@ const render = () => {
 
   for (const singleCohort of allCohorts) {
     cohortContainer.innerHTML += CohortHTML(singleCohort)
-    render()
   }
 }
 

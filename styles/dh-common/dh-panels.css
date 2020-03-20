@@ -1,0 +1,41 @@
+.panel {
+  border: 1px solid var(--grey-100);
+  padding: 0.75em 1em;
+  background: white;
+  border-radius: 3px;
+}
+
+.panel h4,
+.panel h5 {
+  margin: 0.25em 0 0.5em;
+}
+
+.panel p {
+  color: var(--grey-400);
+  font-size: 0.83em;
+  font-weight: 100;
+  margin: 0;
+  line-height: 1.75;
+}
+
+.panel table {
+  width: 100%;
+}
+
+.panel td {
+  color: var(--grey-400);
+  font-size: 0.83em;
+  font-weight: 100;
+  margin: 0;
+  line-height: 1.75;
+  vertical-align: top;
+  /* min-width: 9em; */
+}
+
+.panel td:first-of-type {
+  width: 40%;
+}
+
+.panel td:first-of-type {
+  color: var(--grey-400);
+}

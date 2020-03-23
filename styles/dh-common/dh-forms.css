@@ -7,12 +7,6 @@
   border-radius: 3px;
 }
 
-.dh-Form {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-}
-
 .dh-Form h4 {
   margin-top: 0.3em;
   margin-bottom: 1em;
@@ -76,7 +70,7 @@
 .dh-Form textarea {
   border: 1px solid var(--grey-100);
   margin-top: 0.3em;
-  padding: 0.5em 0.75em;
+  padding: 0.25em 0.5em;
   outline: none;
   font-size: 0.85em;
 }
@@ -91,12 +85,6 @@
 .dh-Form button {
   padding: 0.5em 0.9em 0.5em;
   font-size: 0.9em;
-  float: right;
-  /* background: rgb(241, 241, 241); */
-  /* border-radius: 3px; */
-  /* outline: none; */
-  width: fit-content;
-  align-self: flex-end;
   cursor: pointer;
 }
 

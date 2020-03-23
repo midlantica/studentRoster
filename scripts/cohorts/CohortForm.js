@@ -16,15 +16,16 @@ formContainer.addEventListener("click", e => {
 
 const render = () => {
   formContainer.innerHTML = `
-    <div class="form">
+  <section>
+    <div class="dh-Form flexColumnWrap align-center">
       <form>
-        <fieldset>
-          <label>Cohort Name:</label>
-          <input type="text" id="formCohortName">
+        <fieldset class="text-center">
+          <input type="text" id="formCohortName" class="mar0 marLRH marBH" placeholder="Add New Cohort...">
+          <button id="saveCohort" class="marLRH">Add New Cohort</button>
         </fieldset>
       </form>
-      <button id="saveCohort">Add New Cohort</button>
     </div>
+  </section>
   `
 }
 

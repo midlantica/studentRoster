@@ -12,7 +12,6 @@ const dispatchStateChangeEvent = () => {
   const cohortStateChangedEvent = new CustomEvent("cohortStateChanged")
   eventHub.dispatchEvent(cohortStateChangedEvent)
 }
-
 // need method that fetches GETs cohorts db
 export const getCohorts = () => {
   return fetch("http://localhost:8088/cohorts")
@@ -23,6 +22,7 @@ export const getCohorts = () => {
 }
 
 // Need POST method
+// gonna need a method that creates (POSTs) cohorts
 export const createCohort = cohortObj => {
   return fetch("http://localhost:8088/cohorts", {
     method: "POST",

@@ -4,15 +4,21 @@
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
 .flexRowWrap {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
-.flexRowNoWrap {
+.flexColumn {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: nowrap;
 }
 
@@ -20,12 +26,6 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-}
-
-.flexColumnNoWrap {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
 }
 
 article.flexRow {
@@ -52,6 +52,14 @@ section.flexColumn {
   flex-wrap: wrap;
 }
 
-.align-items {
+.align-left {
+  align-items: flex-start;
+}
+
+.align-right {
+  align-items: flex-start;
+}
+
+.align-center {
   align-items: center;
 }
